@@ -12,6 +12,8 @@ public class Book {
     private UUID id;
     private String name;
 
+    public Book(){}
+
     public Book(String name) {
         this.name = name;
     }
