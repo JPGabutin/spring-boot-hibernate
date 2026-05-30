@@ -12,6 +12,7 @@ public class BookRepositoryImpl implements BookRepository {
         this.jpaBookRepository = jpaBookRepository;
     }
 
+    @Override
     public List<Book> list() {
         return jpaBookRepository.findAll();
     }
